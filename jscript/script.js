@@ -4,7 +4,7 @@ function sendMoney(){
    var Name = document.getElementById("Name").value;
    var Amount = parseInt(document.getElementById("Amount").value);
 
-   if (Amount > 8000) {
+   if (Amount > 90000) {
       alert("Insufficient Balance.")
    } else {
       var UserBankAccount = Name + "BankBalance";
