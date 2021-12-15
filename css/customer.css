@@ -2,6 +2,9 @@ body {
     background: url("../img/about/Bank2.jpg");
     
 }
+#Spark:hover {
+    color: #ffff;
+}
 
 .Moneybutton {
    background-color: #212226;
