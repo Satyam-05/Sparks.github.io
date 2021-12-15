@@ -5,7 +5,7 @@ function sendMoney(){
    var Amount = parseInt(document.getElementById("Amount").value);
 
    if (Amount > 90000) {
-      alert("Insufficient Balance.")
+      alert("Transfer Limit Exceeded!!!")
    } else {
       var UserBankAccount = Name + "BankBalance";
       var finalAmount = parseInt(document.getElementById(UserBankAccount).innerHTML) + Amount;
