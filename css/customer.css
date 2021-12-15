@@ -2,7 +2,7 @@ body {
     background: url("../img/about/Bank2.jpg");
     
 }
-#Spark:hover {
+.Spark:hover {
     color: #ffff;
 }
 
